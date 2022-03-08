@@ -1,0 +1,28 @@
+{
+  "name": "cl_injector",
+  "version": "1.0.0",
+  "description": "inyeccion de leads en una cl",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js && exit 1",
+	"start": "node index.js",
+	"install": "npm install"
+  },
+  "keywords": [
+    "genesys-cloud",
+    "framework",
+    "srlsoluciones",
+    "desarrollos",
+    "integraciones"
+  ],
+  "author": "Marco Galindo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "purecloud-platform-client-v2": "^132.0.0",
+    "simple-node-logger": "^21.8.12",
+    "ws": "^8.5.0"
+  }
+}
